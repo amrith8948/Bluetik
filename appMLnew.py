@@ -36,7 +36,7 @@ def set_background(png_file):
         color: #e0e0e0;
     }}
     
-   [data-testid="stMetricLabel"] {{
+   [data-testid="stDataFrame"] {{
         background-color: rgba(17, 24, 39, 0.95);
         border-right: 1px solid #1f2937;
     }}
@@ -279,3 +279,4 @@ if uploaded_file is not None:
 
 
                 st.caption("Note: Predictions are based on historical algorithmic trends and assume market conditions remain stable.")
+
