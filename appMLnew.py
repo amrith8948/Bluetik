@@ -36,7 +36,7 @@ def set_background(png_file):
         color: #e0e0e0;
     }}
     
-    [data-testid="stSidebar"] {{
+   [data-testid="stMetricLabel"] {{
         background-color: rgba(17, 24, 39, 0.95);
         border-right: 1px solid #1f2937;
     }}
@@ -276,5 +276,6 @@ if uploaded_file is not None:
                 with col4:
                     if 'Clicks' in targets and 'Impressions' in targets: 
                         st.metric(label="Est. CTR (Click-Through Rate)", value=f"{est_ctr:.2f}%")
+
 
                 st.caption("Note: Predictions are based on historical algorithmic trends and assume market conditions remain stable.")
